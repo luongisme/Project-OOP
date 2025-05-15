@@ -2,11 +2,11 @@ package Main;
 
 import javax.swing.JFrame;
 
-public class GamePanel extends JFrame{
+public class Game extends JFrame{
 
     public GameScreen gameWindow;
 
-    public GamePanel(){
+    public Game(){
         setSize(400,400);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -14,6 +14,6 @@ public class GamePanel extends JFrame{
 
     }
     public static void main(String[] args) {
-        GamePanel game=new GamePanel();
+        Game game=new Game();
     }
 }
